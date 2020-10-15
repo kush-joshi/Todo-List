@@ -52,4 +52,10 @@ function newElement() {
       div.style.display = "none";
     }
   }
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
 }
