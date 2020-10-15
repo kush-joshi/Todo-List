@@ -15,3 +15,6 @@ console.log('Server started');
 app.get("/",()=>{
    console.log("HI");
 })
+app.get("/",()=>{
+   console.log("HI");
+})
